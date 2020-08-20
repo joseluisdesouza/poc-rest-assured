@@ -10,32 +10,14 @@ Ferramenta de Construção:
 
 REST Assured para Spring Webflux - biblioteca do framework rest-assured;
 
-Para Maven: usar a dependência <dependency>
-                                     <groupId>io.rest-assured</groupId>
-                                     <artifactId>spring-web-test-client</artifactId>
-                                     <version>4.3.1</version>
-                                     <scope>test</scope>
-                               </dependency>
 Para Gradle: usar a dependência testImplementation 'io.rest-assured:spring-web-test-client:4.3.1'
 
 JsonPath - biblioteca responsável por ler as respostas das mensagens retornadas pela API.
 
-Para Maven: usar a dependência <dependency>
-                                     <groupId>io.rest-assured</groupId>
-                                     <artifactId>json-path</artifactId>
-                                     <version>4.3.1</version>
-                                     <scope>test</scope>
-                               </dependency>
 Para Gradle: usar a dependência testImplementation 'io.rest-assured:json-path:4.3.1'
 
 JSON Schema Validation - Biblioteca responsável por validar se a estrutura da resposta está correta.
 
-Para Maven: usar a dependência <dependency>
-                                     <groupId>io.rest-assured</groupId>
-                                     <artifactId>json-schema-validator</artifactId>
-                                     <version>4.3.1</version>
-                                     <scope>test</scope>
-                               </dependency>
 Para Gradle: usar a dependência testImplementation 'io.rest-assured:json-schema-validator:4.3.1'
 
 Executando o Teste
